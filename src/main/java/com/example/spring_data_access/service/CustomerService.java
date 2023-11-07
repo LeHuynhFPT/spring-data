@@ -18,6 +18,7 @@ public class CustomerService {
     }
 
     public CustomerService() {
+        customerRepository = null;
     }
 
     public List<Customer> getAllCustomers() {
